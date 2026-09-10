@@ -1,0 +1,134 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: #dde1e0;
+    padding: 0px 15px 0px 15px;
+}
+
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #007979;
+}
+
+.div-buttons{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    button{
+        padding: 10px;
+        height: 79%;
+        border-style: none;
+        align-items: center;
+        cursor: pointer;
+    }
+}
+
+.btn-info{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #737877;
+    font-weight: bold;
+    background: transparent;
+}
+
+.btn-login{
+    background-color: #007979;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    font-weight: bold;
+}
+
+.div-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 60px 5%;
+    background-color: #f8fafc;
+    font-family: Arial, sans-serif;
+}
+
+.div-text{
+    flex: 1;
+    max-width: 50%;
+}
+
+.div-text h2{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1a1a1a;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.div-text p {
+    font-size: 1.1rem;
+    color: #555555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.btn-main-start{
+    background-color: #007979;
+    color: #fff;
+    border-style: none;
+    padding: 14px 28px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-main-start:hover{
+    background-color: #016666;
+}
+
+.image{
+    flex: 1;
+    max-width: 50%;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.subtitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #007979;
+    justify-content: center;
+    text-align: center;
+}
+
+.div-grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px;
+}
+
+.item-grid{
+    flex: 1;
+    max-width: 25%;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6faf9;
+    border-radius: 10px;
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        padding: 20px 10px;
+        font-weight: bolder;
+    }
+}
+
+.image-grid{
+    flex: 1;
+    max-width: 100%;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;   
+}
